@@ -2,6 +2,7 @@ package com.example.tutorials.security.jwt;
 
 import java.io.IOException;
 
+import com.example.tutorials.exception.TokenExpiredException;
 import com.example.tutorials.security.services.UserDetailsServiceImpl;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
